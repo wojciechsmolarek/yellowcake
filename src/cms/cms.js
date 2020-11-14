@@ -36,8 +36,8 @@ CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
 CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
   <DefaultPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
-  <GalleryTemplate {...entry.toJS().data} />
+CMS.registerPreviewTemplate('gallery-page', ({ entry }) => (
+  <GalleryPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
   <BlogIndexTemplate {...entry.toJS().data} />
