@@ -110,7 +110,7 @@ export class Navigation extends Component {
               </span>
             </div>
             <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/gallery/">Gallery</NavLink>
+            <NavLink to="/galeria/">Gallery</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
