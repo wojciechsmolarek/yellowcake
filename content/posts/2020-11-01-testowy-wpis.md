@@ -3,6 +3,7 @@ template: SinglePost
 title: Testowy wpis
 status: Published
 date: 2020-11-01
+featuredImage: https://ucarecdn.com/f2ed5f4d-95be-44cb-bbf7-9c184dce4ecc/
 excerpt: Litwo! Ojczyzno moja! Ty jesteś jak zdrowie.
 categories:
   - category: News
