@@ -204,12 +204,9 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: GalleryPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'components' }
+          - { label: Slug, name: slug, widget: hidden, default: 'gallery' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
-          - { label: Section 1, name: section1, widget: markdown }
-          - { label: Section 2, name: section2, widget: markdown }
           - label: 'Gallery'
             name: 'gallery'
             widget: 'list'
