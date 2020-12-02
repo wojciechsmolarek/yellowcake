@@ -1,7 +1,7 @@
 ---
 meta:
   description: This is a meta description.
-  title: Gallery Page
+  title: Galeria
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
