@@ -23,12 +23,7 @@ export const GalleryPageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-    <section className="section">
-      <div className="container">
-        <Content source={section1} />
-      </div>
-    </section>
-
+    
     <section className="section">
       <div className="container">
         <h2>Our gallery component</h2>
@@ -36,19 +31,6 @@ export const GalleryPageTemplate = ({
       </div>
     </section>
 
-    <section className="section">
-      <div className="container">
-        <Content source={section2} />
-      </div>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Popup>
-          <Content source={section1} />
-        </Popup>
-      </div>
-    </section>
   </main>
 )
 
