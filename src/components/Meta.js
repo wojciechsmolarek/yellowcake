@@ -12,6 +12,9 @@ export const query = graphql`
         canonicalLink
       }
     }
+    fields {
+      slug
+    }
   }
 `
 
@@ -51,6 +54,7 @@ export default class Meta extends Component {
         {noindex && <meta name="robots" content="noindex" />}
         {canonicalLink && <link rel="canonical" href={canonicalLink} />}
 
+        <link rel="canonical" href={canonicalLink} />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content={siteTitle} />
         <meta name="twitter:description" content={siteDescription} />
